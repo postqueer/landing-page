@@ -6,3 +6,15 @@ html, body {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.top-container {
+    display: flex;
+    background-color: #1F2937;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
