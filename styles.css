@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    margin: auto;
+    
 }
 
 .header {
@@ -20,11 +20,15 @@ body {
     padding-top: 16px;
     align-items: baseline;
     padding-bottom: 32px;
+    flex-basis: content;
+    
+    
 }
 
 .header-logo {
     color: #f9faf8;
     font-size: 24px;
+    width: 300px;
 }
 
 ul {
@@ -38,6 +42,7 @@ ul {
     display: flex;
     justify-content:space-evenly;
     padding-bottom: 100px;
+
 }
 
 .hero-text {
@@ -52,6 +57,12 @@ ul {
     font-size: 48px;
 }
 
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    
+}
+
 button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -59,4 +70,12 @@ button {
     border-radius: 4px;
     padding: 6px;
     width: 100px;
+}
+
+.placeholder {
+    display: flex;
+    background-color: gainsboro;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
 }
