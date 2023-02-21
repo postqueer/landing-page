@@ -9,8 +9,12 @@ body {
 
 .top-container {
     display: flex;
-    background-color: #1F2937;
-    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
     justify-content: space-evenly;
     padding-top: 16px;
     align-items: baseline;
