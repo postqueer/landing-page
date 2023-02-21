@@ -43,6 +43,7 @@ ul {
     align-items: center;   
     padding-top: 48px; 
     padding-bottom: 48px;
+    width: 100%;
 }
 
 .hero-main {
@@ -53,8 +54,10 @@ ul {
 .hero-text {
     display: flex;
     flex-direction: column;
-    width: 315px;
+    width: 30%;
     gap: 2px;
+    flex-shrink: 0;
+    
     
 }
 
@@ -75,7 +78,8 @@ button {
 
 .placeholder {
     background-color: gray;
-    height: 100px;
+    height: 100
     padding: 8px;
     flex-grow: auto;
+    
 }
