@@ -27,3 +27,14 @@ ul {
     color: #f9faf8;
     gap: 12px;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-main {
+    color:#f9faf8;
+    font-size: 48px;
+
+}
