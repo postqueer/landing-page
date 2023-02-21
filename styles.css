@@ -12,9 +12,18 @@ body {
     background-color: #1F2937;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-top: 16px;
+    align-items: baseline;
 }
 
 .header-logo {
     color: #f9faf8;
     font-size: 24px;
+}
+
+ul {
+    list-style-type: None;
+    display: flex;
+    color: #f9faf8;
+    gap: 12px;
 }
