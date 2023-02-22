@@ -96,6 +96,7 @@ button {
 
 .information {
     display: flex;
+    justify-content: space-evenly;
 }
 .info {
     display: block; 
