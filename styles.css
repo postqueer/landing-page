@@ -148,3 +148,49 @@ button {
     text-align: end;
 
 }
+
+.cta {
+    display: flex;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.cta-main {
+    font-size: 24px;
+
+}
+
+.cta-secondary {
+    font-size: 16px;
+}
+.box {
+    display: flex;
+    background-color: #3882f6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.cta-left {
+    display: block;
+    
+}
+
+.cta-button {
+    border-style: solid;
+    border-color: #f9faf8;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.cta-button > button {
+    font-size: 18px;
+    width: 150px;
+    font-weight: bold;
+}
