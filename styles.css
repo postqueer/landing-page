@@ -100,3 +100,11 @@ button {
 .info {
     display: block; 
 }
+
+.image {
+    width: 171px;
+    height: 171px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 4px;
+}
