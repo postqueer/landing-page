@@ -97,6 +97,8 @@ button {
 .information {
     display: flex;
     justify-content: space-evenly;
+    width: 200px;
+    gap: 32px;
 }
 .info {
     display: block; 
@@ -107,5 +109,10 @@ button {
     height: 171px;
     border-style: solid;
     border-color: #3882f6;
-    border-radius: 4px;
+    border-radius: 16px;
+}
+
+.text {
+    text-align: center;
+    
 }
