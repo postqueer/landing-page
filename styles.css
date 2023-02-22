@@ -117,5 +117,27 @@ button {
 
 .text {
     text-align: center;
-    
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 48px 0;
+
+}
+
+.quote-main {
+    font-size: 36px;
+    font-style: oblique;
+    width: 800px;
+}
+
+.quote-tag {
+    font-size: 22px;
+    font-weight: 600;
+    width: 800px;
+    text-align: end;
+
 }
