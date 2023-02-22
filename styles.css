@@ -100,9 +100,11 @@ button {
     display: flex;
     justify-content: space-evenly;
     padding-top: 24px;
+    padding-bottom: 120px;
     width: 200px;
     gap: 32px;
 }
+
 .info {
     display: block; 
 }
@@ -115,8 +117,12 @@ button {
     border-radius: 16px;
 }
 
-.text {
+.info > .text {
     text-align: center;
+    font-size: 18px;
+    color: #787878;
+    padding-top: 18px;
+
 }
 
 .quote {
@@ -131,6 +137,7 @@ button {
 .quote-main {
     font-size: 36px;
     font-style: oblique;
+    font-weight: light;
     width: 800px;
 }
 
