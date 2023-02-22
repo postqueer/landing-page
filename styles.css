@@ -84,6 +84,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 16px;
 
 }
 
@@ -94,6 +95,12 @@ button {
 }
 
 .images {
-    display: flex;
+    display: block
+    justify-content: space-between;
 }
 
+div > .image {
+    width: 171px;
+    height: 171px;
+    background-color: #f9faf8;
+}
