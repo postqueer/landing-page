@@ -92,3 +92,8 @@ button {
     color: #1f2937;
     align-items: center;
 }
+
+.images {
+    display: flex;
+}
+
