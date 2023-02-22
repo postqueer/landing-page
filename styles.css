@@ -94,13 +94,9 @@ button {
     align-items: center;
 }
 
-.images {
-    display: block
-    justify-content: space-between;
+.information {
+    display: flex;
 }
-
-div > .image {
-    width: 171px;
-    height: 171px;
-    background-color: #f9faf8;
+.info {
+    display: block; 
 }
